@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Portal Login | SRITW</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portal.css">
+</head>
+<body>
+    <header class="portal-header">
+        <a class="portal-logo" href="index2.html"><img src="clglogo.png" alt="Sumathi Reddy Institute of Technology for Women"></a>
+        <a class="portal-home" href="index2.html">← Back to home</a>
+    </header>
+    <main class="portal-shell">
+        <section class="portal-intro"><p class="eyebrow">Student services / Secure access</p><h1>Your college<br><em>portal.</em></h1><p>Sign in to stay connected with your classes, attendance, results and campus updates.</p></section>
+        <section class="portal-card">
+            <h2>Welcome back</h2><p>Use your registered email and password to continue.</p>
+            <form action="profile.html" method="get">
+                <div class="form-grid">
+                    <div class="field full"><label for="login-email">Email address or student ID</label><input id="login-email" name="email" type="text" autocomplete="username" required></div>
+                    <div class="field full"><label for="login-password">Password</label><input id="login-password" name="password" type="password" autocomplete="current-password" required></div>
+                </div>
+                <div class="form-actions"><button class="primary-button" type="submit">Sign in <span>↗</span></button><a class="secondary-link" href="registration.html">Create an account</a></div>
+            </form>
+        </section>
+    </main>
+    <div class="portal-switch">Need help accessing your account? <a href="mailto:portal@sritw.org">Contact portal support</a></div>
+    <footer class="portal-footer"><img src="clglogo.png" alt="SRITW logo"><p>Learning at its best.</p></footer>
+</body>
+</html>
