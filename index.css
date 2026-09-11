@@ -28,7 +28,6 @@ p{
 img{
     width: 100%;
     border-radius: 30px;
-    border-radius: 30px;
     overflow: hidden;
 }
 .content h3{
@@ -61,5 +60,6 @@ img{
 .container{
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
