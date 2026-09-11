@@ -37,6 +37,9 @@ img{
 .social-icon{
     display: flex;
     justify-content: space-evenly;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 40%;
 }
 .icon{
     height: 50px;
